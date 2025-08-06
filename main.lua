@@ -1,8 +1,7 @@
 repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game:GetService("Players").LocalPlayer and game:GetService("Players").LocalPlayer.Character
 
 local scripts = {
-    [126884695634066] = "7a953911595e67e8494c3d3446b8be5b", 
-    [126509999114328] = "c67687e7d7ae30e2e9fd5658f34e8292",
+    [7436755782] = "https://raw.githubusercontent.com/Vica0039G/NeoHackUI/main/GrowAGarden.lua"
 }
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
