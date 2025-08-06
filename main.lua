@@ -18,7 +18,7 @@ gui.Parent = player:WaitForChild("PlayerGui")
 
 --api key
 local correctKey = "LUKAS-9999"
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/untitled.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vica0039G/NeoHackUI/main/main.lua"))()
 
 local lootlabs = "https://ads.luarmor.net/get_key?for=Lootlabs_No_Lag-WAKXwZFYPyHF"
 local linkvertise = "https://ads.luarmor.net/get_key?for=Linkvertise_No_Lag-mSdMfyEDdcbV"
@@ -163,8 +163,8 @@ if script_key ~= "" and script_key ~= "your_key" then
             isLoad = true
             saveKeyToFile(script_key)
 
-            loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/untitled.lua"))()
-
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Vica0039G/NeoHackUI/main/main.lua"))()
+            
             return
         else
             showNotification("❌ Key sai. Lấy tại: yourlink.com")
@@ -578,7 +578,7 @@ submitButton.MouseButton1Click:Connect(function()
                 if script_key == correctKey then
                     saveKeyToFile(script_key)
                     showNotification("✅ Key hợp lệ!", colors.success)
-                    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/untitled.lua"))()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vica0039G/NeoHackUI/main/main.lua"))()
                     return
                 else
                     showNotification("❌ Key sai. Vui lòng thử lại!", colors.error)
