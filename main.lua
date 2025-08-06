@@ -554,7 +554,7 @@ if not isLoad then
 
 submitButton.MouseButton1Click:Connect(function()
     local enteredKey = inputBox.Text
-    local correctKeyLength = 32
+    local correctKeyLength = 10
 
     if #enteredKey == correctKeyLength then
         local tween = TweenService:Create(
