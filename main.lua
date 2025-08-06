@@ -1,7 +1,8 @@
 repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game:GetService("Players").LocalPlayer and game:GetService("Players").LocalPlayer.Character
 
 local scripts = {
-    [7436755782] = "https://raw.githubusercontent.com/Vica0039G/NeoHackUI/main/GrowAGarden.lua"
+    [126884695634066] = "7a953911595e67e8494c3d3446b8be5b", 
+    [126509999114328] = "c67687e7d7ae30e2e9fd5658f34e8292",
 }
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
@@ -577,7 +578,7 @@ submitButton.MouseButton1Click:Connect(function()
                 if script_key == correctKey then
                     saveKeyToFile(script_key)
                     showNotification("✅ Key hợp lệ!", colors.success)
-                    loadstring(game:HttpGetAsync(url))()
+                    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/untitled.lua"))()
                     return
                 else
                     showNotification("❌ Key sai. Vui lòng thử lại!", colors.error)
